@@ -1,9 +1,9 @@
 var check=true;
 document.querySelector('.song').addEventListener("click",function(){
   var song=new Audio('sounds/tum.mp3');
-  if(b){
+  if(check){
     song.play();
-    b=false;
+    check=false;
   }
 })
 
