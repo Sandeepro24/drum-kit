@@ -1,6 +1,10 @@
+var check=true;
 document.querySelector('.song').addEventListener("click",function(){
   var song=new Audio('sounds/tum.mp3');
-  song.play();
+  if(b){
+    song.play();
+    b=false;
+  }
 })
 
 
